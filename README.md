@@ -16,7 +16,7 @@ PredStr is a Python package designed to implement the concept of Prediction Stre
 PredStr can be installed via pip:
 
 ```sh
-pip install predstr
+pip install git+git://github.com/HKozubek/PredictionStrength.git#egg=predstr
 ```
 
 ## Quick Start
