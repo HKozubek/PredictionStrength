@@ -30,10 +30,10 @@ score = ps.compute_score(kmeans_train.predict(X_test), kmeans_test.labels_)
 print("Prediction Strength Score: ", score)
 ```
 ## Documentation
-For a more comprehensive guide on how to use PredStr, please refer to our full documentation.
+For a more comprehensive guide on how to use PredStr, please refer to our [full documentation].
 
 ## Contributing
-We appreciate all contributions. If you're interested in contributing, please read our contributing guide.
+We appreciate all contributions. If you're interested in contributing, please read our [contributing guide](./CONTRIBUTING).
 
 ## Citation
 If you use PredStr in a scientific publication, we would appreciate citations to the following paper:
@@ -41,7 +41,7 @@ If you use PredStr in a scientific publication, we would appreciate citations to
 Tibshirani, R., Walther, G. (2005). Cluster Validation by Prediction Strength. Journal of Computational and Graphical Statistics, 14(3), 511-528.
 
 ## License
-PredStr is distributed under the terms of the MIT License.
+PredStr is distributed under the terms of the [MIT License](./LICENSE).
 
 ## Contact
 For help and feedback, please feel free to contact the maintainer.
