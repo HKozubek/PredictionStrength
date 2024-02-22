@@ -25,14 +25,13 @@ Here is a simple example of how to use PredStr with a k-means clustering algorit
 
 ```python
 from sklearn.cluster import KMeans
-from predstr import PredStrength
+from predstr import prediction_strength
 
 # Assume X is your data
 kmeans_train = KMeans(n_clusters=3, random_state=0).fit(X_train)
 kmeans_test = KMeans(n_clusters=3, random_state=0).fit(X_test)
 
-ps = PredStrength()
-score = ps.compute_score(kmeans_train.predict(X_test), kmeans_test.labels_)
+score = prediction_strength(kmeans_train.predict(X_test), kmeans_test.labels_)
 
 print("Prediction Strength Score: ", score)
 ```
